@@ -8,6 +8,7 @@
 import UIKit
 import Messages
 
+
 class MessagesViewController: MSMessagesAppViewController {
     
     override func viewDidLoad() {
@@ -51,6 +52,7 @@ class MessagesViewController: MSMessagesAppViewController {
         // Use this to clean up state related to the deleted message.
     }
     
+    
     override func willTransition(to presentationStyle: MSMessagesAppPresentationStyle) {
         // Called before the extension transitions to a new presentation style.
     
@@ -64,3 +66,18 @@ class MessagesViewController: MSMessagesAppViewController {
     }
 
 }
+
+
+
+
+//struct ContentView: View {
+//    var body: some View {
+//        // ...
+//    }
+//}
+//
+//
+//// A SwiftUI preview.
+//#Preview {
+//    ContentView()
+//}
